@@ -1,6 +1,7 @@
 export type TTask = {
-    name: string,
+    name: string;
     executor: string;
-    deadline: Date;
+    createdDate: Date;
+    deadline?: Date;
     place?: string;
 }
